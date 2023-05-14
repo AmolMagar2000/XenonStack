@@ -1,0 +1,33 @@
+
+    .page {
+      display: flex;
+      justify-content: center;
+      padding: 50px;
+    }
+     h1, h2 {
+      text-align: center;
+    }
+    .one {
+      height: 200px;
+      width: 200px;
+      border-radius: 5px;
+      background-color: lightseagreen;
+      margin: 50px;
+      font-size: 30px;
+    }
+
+    .one :hover {
+      color: rgb(15, 84, 80);
+    }
+
+    
+    .body {
+      padding-top: 20px;
+      background-color: aliceblue;
+     
+    }
+    .linktag{
+      color:black;
+    }
+
+    

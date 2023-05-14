@@ -1,0 +1,33 @@
+.container2 {
+      font-size: small;
+      margin: 50px;
+      justify-content: center;
+      color: antiquewhite;
+    }
+    #bodymain {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Georgia, serif;
+    }
+
+    .imgbg::before {
+      background-image: url(../Images/pexels-anna-shvets-4421551.jpg);
+      content: "";
+      position: absolute;
+      background-size: cover;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 100%;
+      filter: opacity(0.9);
+    }
+
+    .card {
+      background-color: rgba(0, 0, 0, 0.659);
+      color: antiquewhite;
+    } 
+    .SignuHome {
+      color: antiquewhite;
+    }
